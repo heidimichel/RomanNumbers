@@ -1,1 +1,36 @@
-/*code here*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #ddc6a6;
+}
+p, h1, h2 {
+    color: #362211;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inspiration {
+    text-align: center;
+    display: fixed;
+    bottom: 0;
+    color: #362211;
+}
+.inspiration a {
+    font-weight: bold;
+    color: #362211;
+}
+  .inspiration a:hover {
+    color: white;
+}
+  .container {
+    background: beige;
+    text-align: center;
+    width: 800px;
+    min-height: 400px;
+    margin: 100px auto 30px auto;
+}
+.controls {
+    text-align: center;
+    margin-bottom: 50px;
+}
