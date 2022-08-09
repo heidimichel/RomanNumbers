@@ -1,1 +1,1 @@
-//things here
+//use switch case for the conversion?

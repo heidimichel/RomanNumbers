@@ -10,6 +10,9 @@ p, h1, h2 {
     color: #362211;
     font-family: 'Josefin Sans', sans-serif;
 }
+h1 {
+    margin-bottom: 1.5em;
+ }
 .inspiration {
     text-align: center;
     display: fixed;
