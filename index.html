@@ -159,17 +159,10 @@
     <p>Type a roman number to see it in decimals</p>
     <p style="color:gray;">(Not working yet!)</p>
     <div class="controls">
-      <form>
-        <input type="text">
-        <button>convert!</button>
-        <span>result here</span>
-      </form>  
-      <p>&nbsp;</p>  
-      <p style="display:none;">
-      input type text here
-      regex for error
-      submit button
-      display results</p></div>
+        <input type="text" id="roman">
+        <button onclick="convert()" id="conversionbutton">convert!</button>
+        <span id="result">>result here</span>
+        <p>&nbsp;</p>
   </div>
 
   <p class="inspiration">Inspiration from <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Roman-to-Decimal-Converter.md" target="_blank">this github repo</a>.</p>
