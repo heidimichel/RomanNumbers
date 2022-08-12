@@ -27,7 +27,7 @@ h1 {
     color: white;
 }
 .container {
-    background: beige;
+    /*background: beige;*/
     text-align: center;
     width: 800px;
     min-height: 400px;
@@ -36,4 +36,26 @@ h1 {
 .controls {
     text-align: center;
     margin: 50px auto;
+}
+.columns-bg {
+    position: absolute;
+    top: -30px;
+    z-index: -1;
+    width: 800px;
+    height: 400px;
+}
+svg#Layer_1 {
+    position: relative;
+    float: left;
+}
+svg#Layer_2 {
+    position: relative;
+    float: right;
+}
+.st0{
+    fill:#FFFFFF;
+}
+.st1{
+    opacity:0.2;
+    fill:url(#SVGID_1_);
 }
