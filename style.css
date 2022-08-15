@@ -59,3 +59,7 @@ svg#Layer_2 {
     opacity:0.2;
     fill:url(#SVGID_1_);
 }
+span#result {
+    width: 210px;
+    display: inline-block;
+}
