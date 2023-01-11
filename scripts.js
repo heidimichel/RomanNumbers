@@ -1,7 +1,8 @@
 const getValueInput = () => {
   let inputValue = document.getElementById("roman").value;
-  switch (inputValue) {
-    case "test":
+  let upperValue = inputValue.toUpperCase();
+  switch (upperValue) {
+    case "TEST":
       text = "passed the test";
       break;
     case "I":
